@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #031F55;
+}
+
+#sobre-nos {
+    background-color: #FBF7EF;
+}
+
+header {
+    padding: 24px 96px;
+    background-color: #fff;
+    color: #031F55;
+    border-bottom: #D7D7D7;
+    border-bottom-style: solid;
+}
+
+header h1 
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 32px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #031F55;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sobre-nos .container {
+    align-items: center;
+    padding: 72px 176px;
+}
+
+#sobre-nos .container h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#sobre-nos .container .texto {
+    max-width: 391px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section h2 {
+    color: #031F55;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    color: #031F55;
+}
+
+section p {
+    font-size: 18px;
+    color: #031F55;
+    margin-bottom: 16px;
+}
+
+.book-shelf {
+    margin-right: 80px;
+    border-radius: 47.41px;
+    width: 452.59px; 
+    height: 560.74px
+}
+
+#produtos .container{
+    display: block;
+    padding: 24px 96px;
+}
+
+li button {
+    width: 100%;
+    height: 42px;
+    margin-top: 16px;
+    padding: 12 16;
+    border-radius: 12px;
+    background-color: #031F55;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #031F55;
+}
+
+#produtos .container h2 {
+    margin-top: 92px;
+    margin-bottom: 64px;
+}
+
+.lista-livros li {
+    list-style: none;
+    max-width: 20%;
+    margin-bottom: 24px;
+}
+
+.lista-livros li h3 {
+    margin: 16px 0;
+}
+
+.lista-livros li img {
+    max-width: 117px;
+}
+
+.lista-livros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+    .book-shelf {
+        display: block;
+        margin-right: 0;
+    }
+    
+    #sobre-nos .container {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .texto {
+        display: block;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    #produtos .container h2 {
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .lista-livros {
+        display: block;
+    }
+
+    .lista-livros li {
+        list-style: none;
+        max-width: 90%;
+        margin-bottom: 32px;
+    }
+    
+    .lista-livros li img {
+        max-width: 90%;
+        
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+    .book-shelf {
+        display: block;
+        margin-right: 0;
+        margin-top: 24px;
+    }
+    
+    #sobre-nos .container {
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    .texto {
+        display: block;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    #produtos .container h2 {
+        margin-top: 72px;
+        margin-bottom: 40px;
+    }
+
+    .lista-livros {
+        display: block;
+    }
+
+    .lista-livros li {
+        list-style: none;
+        max-width: 90%;
+        margin-bottom: 32px;
+    }
+    
+    .lista-livros li img {
+        max-width: 90%;
+        
+    }
+}
